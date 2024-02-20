@@ -1,19 +1,15 @@
-/*#include<stdio.h>
-int main()
-{
-    char name[]="mahabub alam bishal\0";
-    printf("%d",sizeof(name)/sizeof(char));
-    printf("\n");
-    printf("%s",name);
-    return 0;
-}*/
-
 #include<stdio.h>
 int main()
 {
-    char name[8]="mahabub";
-    printf("%d",sizeof(name)/sizeof(char));
-    printf("\n");
-    printf("%s",name);
-    return 0;
+    /*char name[8]={'m','a','h','a','b','u','b'};
+    for(int i=0;i<7;i++)
+    {
+        printf("%c",name[i]);
+        printf("\n");
+    }
+    printf("%s",name);*/
+    char name[]="mahabub";
+    printf("%s\n",name);
+    printf("%d",sizeof(name));
+    
 }
